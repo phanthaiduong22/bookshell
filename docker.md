@@ -6,3 +6,5 @@
 `kubectl exec --stdin --tty <pod-name> -- /bin/bash`
 - Get ip of minikube service:
 `minikube service wordpress --url`
+- Get secrets
+`kubectl get secrets`
